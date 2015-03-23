@@ -8,3 +8,13 @@ D:\Important\Documents\Projects VS\Projects\bluetoothSharing\bluetoothSharing\ob
 D:\Important\Documents\Projects VS\Projects\bluetoothSharing\bluetoothSharing\obj\Debug\bluetoothSharing.pdb
 D:\Important\Documents\Projects VS\Projects\bluetoothSharing\bluetoothSharing\obj\Debug\bluetoothSharing.General.resources
 D:\Important\Documents\Projects VS\Projects\bluetoothSharing\bluetoothSharing\obj\Debug\bluetoothSharing.About.resources
+D:\Important\GitHub\bluetoothSharing\Source\bluetoothSharing\bin\Debug\bluetoothSharing.exe.config
+D:\Important\GitHub\bluetoothSharing\Source\bluetoothSharing\obj\Debug\bluetoothSharing.exe
+D:\Important\GitHub\bluetoothSharing\Source\bluetoothSharing\obj\Debug\bluetoothSharing.pdb
+D:\Important\GitHub\bluetoothSharing\Source\bluetoothSharing\bin\Debug\bluetoothSharing.exe
+D:\Important\GitHub\bluetoothSharing\Source\bluetoothSharing\bin\Debug\bluetoothSharing.pdb
+D:\Important\GitHub\bluetoothSharing\Source\bluetoothSharing\obj\Debug\bluetoothSharing.csprojResolveAssemblyReference.cache
+D:\Important\GitHub\bluetoothSharing\Source\bluetoothSharing\obj\Debug\bluetoothSharing.General.resources
+D:\Important\GitHub\bluetoothSharing\Source\bluetoothSharing\obj\Debug\bluetoothSharing.Properties.Resources.resources
+D:\Important\GitHub\bluetoothSharing\Source\bluetoothSharing\obj\Debug\bluetoothSharing.csproj.GenerateResource.Cache
+D:\Important\GitHub\bluetoothSharing\Source\bluetoothSharing\obj\Debug\bluetoothSharing.Settings.resources

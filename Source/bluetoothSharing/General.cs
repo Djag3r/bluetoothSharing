@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace bluetoothSharing
 {
@@ -19,15 +13,39 @@ namespace bluetoothSharing
 
         private void infobutton_Click(object sender, EventArgs e)
         {
-            About about = new About(this);
-            about.MdiParent = this;
-            about.Show();
-            //newForm.ShowDialog(); // вызов дочерней формы в виде диалогового окна
+            Button btn = sender as Button;
+            groupbox.Visible = true;
+            namelabel.Visible = true;
+            versionlabel.Visible = true;
+            buildlabel.Visible = true;
+            gamefunlinklabel.Visible = true;
+            datelabel.Visible = true;
+            btn.Click -= new EventHandler(infobutton_Click);
+            btn.Click += new EventHandler(infobutton_Click_1);
         }
 
-        private void General_Load(object sender, EventArgs e)
+        private void infobutton_Click_1(object sender, EventArgs e)
         {
-            this.IsMdiContainer = true;
+            Button btn = sender as Button;
+            groupbox.Visible = false;
+            namelabel.Visible = false;
+            versionlabel.Visible = false;
+            buildlabel.Visible = false;
+            gamefunlinklabel.Visible = false;
+            datelabel.Visible = false;
+            btn.Click -= new EventHandler(infobutton_Click_1);
+            btn.Click += new EventHandler(infobutton_Click);
+        }
+
+        private void gamefunlinklabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start(@"http://vk.com/gamefun_vk");
+        }
+
+        private void settingsbutton_Click(object sender, EventArgs e)
+        {
+            Settings settings = new Settings();
+            settings.ShowDialog();
         }
     }
 }
