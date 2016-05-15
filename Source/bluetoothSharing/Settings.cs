@@ -8,5 +8,10 @@ namespace bluetoothSharing
         {
             InitializeComponent();
         }
+
+        private void Settings_Load(object sender, System.EventArgs e)
+        {
+            visible.Checked = true;
+        }
     }
 }
